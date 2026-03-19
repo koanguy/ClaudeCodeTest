@@ -17,7 +17,7 @@ Or just double-click the files in Finder / drag into a browser tab. There is no 
 
 ## Git & GitHub Workflow
 
-After every meaningful change, commit and push:
+**This is a hard requirement:** after every meaningful change — feature added, bug fixed, file modified — commit and push immediately. Never leave work uncommitted. The goal is that GitHub always reflects the current state so no progress is ever lost.
 
 ```bash
 git add <file>
@@ -27,7 +27,12 @@ git push
 
 Remote: `https://github.com/koanguy/ClaudeCodeTest` (branch: `main`)
 
-Commit message convention: short imperative subject line (≤72 chars), optional blank line + bullet details for non-obvious changes. One logical change per commit.
+Commit message convention:
+- Short imperative subject line (≤72 chars), e.g. `Add shield power-up to player`
+- Optional blank line + bullet details for non-obvious changes
+- One logical change per commit — don't batch unrelated edits
+
+Do not wait until the end of a task to commit. Commit each logical step as it is completed.
 
 ## Architecture
 
