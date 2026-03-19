@@ -1,0 +1,6 @@
+# Claude Code local settings (keep machine-specific config out of git)
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
